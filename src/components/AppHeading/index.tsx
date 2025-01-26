@@ -17,7 +17,7 @@ export const AppHeading = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1.3, delay: 0.3 }}
       >
-        Chatter
+        Alleby
       </motion.h1>
       <motion.p
         className={cn(
@@ -28,7 +28,7 @@ export const AppHeading = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1.3, delay: 0.6 }}
       >
-        <div>An interactive podcast experience</div>
+        <div>An interactive experience</div>
       </motion.p>
     </>
   );

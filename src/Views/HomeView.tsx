@@ -56,11 +56,12 @@ export const HomeView: FC<HomeViewProps> = ({ setActiveView }) => {
         >
           {status.value === 'connecting' ? 'Connecting...' : 'Start'}
         </Button>
-        <div className="max-w-sm text-center text-sm">
-          By starting a conversation, I accept Hume&apos;s{' '}
+        {/* <div className="max-w-sm text-center text-sm">
+          By starting a conversation, I accept Alleby&apos;s{' '}
           <a
             className="cursor-pointer underline"
-            href="https://link.hume.ai/terms-of-use"
+            // href="https://link.hume.ai/terms-of-use"
+            href="https://alleby.bloomi.ai/terms-of-use"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -69,13 +70,14 @@ export const HomeView: FC<HomeViewProps> = ({ setActiveView }) => {
           and acknowledge the{' '}
           <a
             className="cursor-pointer underline"
-            href="https://link.hume.ai/privacy-policy"
+            // href="https://link.hume.ai/privacy-policy"
+            href="https://alleby.bloomi.ai/privacy-policy"
             target="_blank"
             rel="noreferrer noopener"
           >
             Privacy Policy
           </a>
-        </div>
+        </div> */}
       </motion.div>
 
       <motion.svg

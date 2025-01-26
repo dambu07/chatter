@@ -13,8 +13,8 @@ const DownloadAppBanner = dynamic(
 );
 
 export const metadata: Metadata = {
-  title: 'Chatter • Hume AI',
-  description: 'Chatter: An interactive podcast experience',
+  title: 'Alleby • Ombre AI',
+  description: 'Alleby: An interactive experience',
   metadataBase: new URL(
     `https://${process.env.VERCEL_URL ?? `localhost:${process.env.PORT ?? '4444'}`}`,
   ),

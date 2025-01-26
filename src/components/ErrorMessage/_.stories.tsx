@@ -21,5 +21,5 @@ const Template: StoryFn<ErrorMessageProps> = (args) => {
 export const Default = Template.bind({});
 Default.args = {
   messageContent:
-    'Unexpected service error occurred. Please visit https://dev.hume.ai/support for assistance.',
+    // 'Unexpected service error occurred. Please visit https://dev.hume.ai/support for assistance.',
 } satisfies ErrorMessageProps;

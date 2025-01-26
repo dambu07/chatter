@@ -25,7 +25,7 @@ export const MicPermissionView: FC<MicPermissionViewProps> = ({
       <div className="mx-auto flex w-full grow flex-col items-center justify-center gap-4 overflow-scroll">
         <MicOff size={40} />
         <h2 className="max-w-2xl text-center text-2xl sm:text-3xl">
-          Please grant microphone permissions to continue using Chatter.
+          Please grant microphone permissions to continue using Alleby.
         </h2>
         <p className="mb-8 text-center text-lg sm:text-xl">
           Permissions can be updated in your browser settings.

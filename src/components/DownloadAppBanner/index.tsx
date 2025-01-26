@@ -30,8 +30,8 @@ export default function DownloadAppBanner() {
           animate={{ y: 0 }}
           exit={{ y: -100 }}
         >
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-            <p className="text-sm leading-6">
+          {/* <div className="flex flex-wrap items-center gap-x-4 gap-y-2"> */}
+            {/* <p className="text-sm leading-6">
               <strong className="font-semibold">
                 EVI: Your personal AI with emotional intelligence
               </strong>
@@ -43,8 +43,8 @@ export default function DownloadAppBanner() {
                 <circle cx={1} cy={1} r={1} />
               </svg>
               Now available on iOS
-            </p>
-            <Link
+            </p> */}
+            {/* <Link
               href="https://link.hume.ai/app-store"
               target="_blank"
               rel="noopener noreferrer"
@@ -52,7 +52,7 @@ export default function DownloadAppBanner() {
             >
               Download <span aria-hidden="true">&rarr;</span>
             </Link>
-          </div>
+          </div> */}
           <div className="flex flex-1 justify-end">
             <button
               type="button"

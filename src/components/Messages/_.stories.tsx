@@ -49,7 +49,7 @@ const Template: StoryFn<MessagesProps> = () => {
             code: 'I0100',
             slug: 'uncaught',
             message:
-              'Unexpected service error occurred. Please visit https://dev.hume.ai/support for assistance.',
+              'Unexpected service error occurred. Please visit https://dev.alleby.ai/support for assistance.',
             receivedAt: new Date(),
           },
         ]),

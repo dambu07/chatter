@@ -78,7 +78,7 @@ export const ConversationView: FC<ConversationViewProps> = ({
             <WaitingOnHost />
           )}
           <div className="fixed bottom-4 left-4 text-sm text-neutral-500 md:bottom-8 md:left-8">
-            Chatter may make mistakes.
+            Alleby may make mistakes.
           </div>
 
           <div className="flex w-full justify-end md:p-4">

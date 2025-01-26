@@ -3,7 +3,7 @@ import { cn } from '@/utils';
 import { Rocket } from 'lucide-react';
 import Link from 'next/link';
 import { FC } from 'react';
-import { HumeWordmark } from '../HumeWordmark';
+// import { HumeWordmark } from '../HumeWordmark';
 
 export type NavRailProps = {
   variant?: 'light' | 'dark';
@@ -21,7 +21,7 @@ export const NavRail: FC<NavRailProps> = ({ variant = 'light' }) => {
         isDark && 'bg-black',
       )}
     >
-      <div className={'flex shrink items-center gap-3 pl-6'}>
+      {/* <div className={'flex shrink items-center gap-3 pl-6'}>
         <Link
           href={'https://hume.ai'}
           target={'_blank'}
@@ -35,14 +35,14 @@ export const NavRail: FC<NavRailProps> = ({ variant = 'light' }) => {
           />
           <span className={'sr-only'}>{`Hume AI's website`}</span>
         </Link>
-      </div>
+      </div> */}
       <div className={'relative isolate h-full grow'}>
         <div
           className={
             'absolute right-0 top-0 flex flex-col items-end gap-2 pr-6 pt-4'
           }
         >
-          <Link
+          {/* <Link
             href={'https://beta.hume.ai/playground/voice'}
             target={'_blank'}
             rel={'noopener noreferrer'}
@@ -72,7 +72,7 @@ export const NavRail: FC<NavRailProps> = ({ variant = 'light' }) => {
             <span className={cn('line-clamp-1 shrink truncate')}>
               Start building
             </span>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

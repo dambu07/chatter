@@ -66,7 +66,7 @@ export const WaitingOnHost: FC<WaitingOnHostProps> = () => {
             <ThreeDotsWave />
           </div>
 
-          <div>Your podcast co-host will be here soon</div>
+          <div>Your coach will be here soon</div>
         </motion.div>
       </AnimatePresence>
     </div>
